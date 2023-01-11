@@ -1,0 +1,17 @@
+body{
+    color: white;
+    font: 1em sans-serif;
+    background-color: blue;
+}
+
+button{
+    border-color: white;
+    border-radius: 40px;
+    border: 0%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}

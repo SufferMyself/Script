@@ -1,0 +1,139 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font: 1em courier;
+  font-family: "Courier New", 'Courier', 'monospace';
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: hsl(100, 0%, 50%);
+}
+
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+span{
+  color: #ffffff;
+}
+
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a{
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+a:hover{
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+
+  body img{
+    border: 2px solid #ffffff;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+  }
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+div img{
+  width: 200px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #000000;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+  main p{
+    color: white;
+  }
+
+  main #nieuws{
+    background-color: hsl(100, 0%, 50%);
+  }
+
+  main #nieuws h2{
+    margin-left: 2%;
+  }
+  main #nieuws p{
+    margin-left: 2%;
+  }
+
+  main #gallerij{
+    background-color: hsl(100, 0%, 50%);
+  }
+
+  main #spotify{
+    background:  linear-gradient(#5b5b5b84, #5b5b5b), url(images/logo_n.jpg);
+    background-size: 100%;
+    /* background-color: hsl(100, 0%, 50%); */
+    font-size: 1.2vw;
+  }
+
+
+  main #vertoningen{
+    background-color: hsl(100, 0%, 50%);
+  }
+
+  main #revieuws{
+    background-color: hsl(100, 0%, 50%);
+  }
+
+  main #nieuws h2{
+    margin-left: 2%;
+  }
+  main #nieuws p{
+    margin-left: 2%;
+  }
+
+  main #gallerij h2{
+    margin-left: 2%;
+  }
+  main #gallerij p{
+    margin-left: 2%;
+  }
+
+  main #spotify h2{
+    margin-left: 2%;
+  }
+  main #spotify p{
+    margin-left: 2%;
+  }
+
+  main #vertoningen h2{
+    margin-left: 2%;
+  }
+  main #vertoningen p{
+    margin-left: 2%;
+  }
