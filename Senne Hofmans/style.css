@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(jaja.jpg) no-repeat;
+    background-size: cover;
+  }
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+ .box header{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+ul{
+    margin: 0;
+    padding: 0;
+  }
+li{
+    display: flex;
+  }
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+  }
+a:hover{
+    color: blac-;
+    transition: 0.5s;
+  }
+.box li a:hover{
+    color: #b9b9b9;
+  }
+  footer{
+    display: flex;
+  }
