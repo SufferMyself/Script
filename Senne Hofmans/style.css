@@ -1,11 +1,12 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 0vw;
     background: url(jaja.jpg) no-repeat;
     background-size: cover;
+    display: flex;
   }
 .box{
-    width: 450px;
+    width: 900px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
@@ -29,18 +30,32 @@ body{
     letter-spacing: 3px;
     font-weight: 100;
   }
-ul{
-    margin: 0;
-    padding: 0;
-  }
-li{
+
+  #about{
     display: flex;
+    padding: 4% 0;
   }
+
+  .left{
+      /* with: 30%; */
+    flex: 3;
+  }
+
+.right{
+  /* with: 70%; */
+  flex: 7;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
 a{
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 14px;
   }
 a:hover{
     color: blac-;
