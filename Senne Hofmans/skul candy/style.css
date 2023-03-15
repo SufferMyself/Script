@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: tilt warp;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+header input{
+    border-radius: 50px;
+    background-color: rgb(33, 33, 33);
+    border-color: white;
+    color: white;
+    padding: 5px 10px;
+    width: 120px;
+}
+.flex-footer{
+    display: flex;
+    color: white;
+}
+footer nav li{
+    display: flex;
+}
+footer nav li a{
+    text-decoration: none;
+    color: white;
+}
+footer nav li a:hover{
+    color: red;
+    transition: 0.5s;
+}
