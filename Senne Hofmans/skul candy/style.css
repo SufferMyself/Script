@@ -6,42 +6,46 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
     color: white;
     font-family: tilt warp;
 }
 
-.invert{
+.invert {
     filter: invert(1);
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header{
+header {
     padding: 20px;
     background-color: rgb(33, 33, 33);
 }
 
-header nav li{
+header img {
+    width: 10rem;
+}
+
+header nav li {
     display: inline;
 }
 
-header nav li a{
+header nav li a {
     text-decoration: none;
     color: white;
 }
 
-header nav li a:hover{
+header nav li a:hover {
     color: red;
     transition: 0.5s;
 }
 
-header input{
+header input {
     border-radius: 50px;
     background-color: rgb(33, 33, 33);
     border-color: white;
@@ -49,18 +53,22 @@ header input{
     padding: 5px 10px;
     width: 120px;
 }
-.flex-footer{
+
+.flex-footer {
     display: flex;
     color: white;
 }
-footer nav li{
+
+footer nav li {
     display: flex;
 }
-footer nav li a{
+
+footer nav li a {
     text-decoration: none;
     color: white;
 }
-footer nav li a:hover{
+
+footer nav li a:hover {
     color: red;
     transition: 0.5s;
 }
@@ -75,6 +83,6 @@ footer nav li a:hover{
     flex: 1;
 }
 
-img{
+img {
     width: 100%;
 }
