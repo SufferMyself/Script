@@ -86,3 +86,30 @@ footer nav li a:hover {
 img {
     width: 100%;
 }
+
+#featured img {
+    display: block;
+    width: 100%;
+  
+  }
+  
+  #membership .flex-item {
+    padding: 2rem;
+  }
+  
+  .highlight {
+    background-color: rgb(70, 68, 68);
+  
+  }
+  
+  .memberfoto {
+    flex: 0.4;
+    background-image: url(fotos/membership.webp);
+    background-size: cover;
+    background-position: center;
+    align-self: stretch;
+  }
+
+  #membership p{
+    color: rgb(70, 68, 68);    
+}
