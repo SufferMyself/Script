@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #00b5bf;
 }
 header {
     background: url('https://static.vecteezy.com/system/resources/previews/039/664/933/non_2x/ai-generated-close-up-of-professional-car-wash-black-sports-car-being-shampooed-for-a-sparkling-clean-finish-free-photo.jpg') no-repeat center center/cover;
@@ -38,7 +38,7 @@ nav {
 }
 
 .nav-items a:hover {
-    color: #ffd700;
+    color: #00b5bf;
 }
 
 .nav-logo img {
@@ -53,7 +53,7 @@ nav {
     padding: 0 50px;
 }
 .service {
-    background-color: white;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 30%;
@@ -68,28 +68,30 @@ nav {
 .service h3 {
     padding: 20px 0;
     font-size: 1.5em;
+    color: white;
 }
 .service p {
     padding: 0 20px 20px;
     font-size: 1em;
     line-height: 1.5;
+    color: white;
 }
 .about {
-    background-color: #fff;
+    background-color: #333;
     padding: 50px;
     text-align: center;
     margin: 50px 0;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    color: white;
 }
 .about p {
     font-size: 1.2em;
     line-height: 1.7;
-    color: #555;
+    color: white;
 }
 footer {
     margin: 0;
@@ -110,14 +112,14 @@ footer {
 
 .contact-info {
     display: inline-block;
-    background-color: #fff;
+    background-color: #00b5bf;
     padding: 15px 30px;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .contact-info p {
-    color: #555;
+    color: white;
     margin: 0;
     font-size: 1.2em;
 }
