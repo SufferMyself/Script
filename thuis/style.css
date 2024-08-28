@@ -19,19 +19,32 @@ header h1 {
 }
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     padding: 1em;
 }
-nav a {
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2em;
 }
-nav a:hover {
+
+.nav-items a:hover {
     color: #ffd700;
 }
+
+.nav-logo img {
+    max-height: 50px; /* Pas de hoogte van het logo aan naar wens */
+}
+
 .services {
     display: flex;
     justify-content: space-around;
