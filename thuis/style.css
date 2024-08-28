@@ -79,11 +79,12 @@ nav a:hover {
     color: #555;
 }
 footer {
+    margin: 0;
+    padding: 0;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 50px;
 }
 .contact-bar {
     background-color: #333;
@@ -91,7 +92,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-    margin-top: 50px; /* Zorg ervoor dat deze marge voldoende is om de inhoud niet te overlappen */
+    margin-top: 50px; 
 }
 
 .contact-info {
