@@ -78,33 +78,6 @@ nav a:hover {
     line-height: 1.7;
     color: #555;
 }
-.contact {
-    background-color: #333;
-    color: white;
-    padding: 50px;
-    text-align: center;
-}
-.contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-.contact input, .contact textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-}
-.contact input[type="submit"] {
-    background-color: #ffd700;
-    color: #333;
-    cursor: pointer;
-    font-size: 1.2em;
-}
 footer {
     background-color: #333;
     color: white;
@@ -123,13 +96,14 @@ footer {
 
 .contact-info {
     display: inline-block;
-    background-color: #444;
+    background-color: #fff;
     padding: 15px 30px;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .contact-info p {
+    color: #555;
     margin: 0;
     font-size: 1.2em;
 }
